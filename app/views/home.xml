@@ -1,0 +1,35 @@
+<Alloy>
+	<Window id="win" theme="Theme.NoActionBar" title="Home" navBarHidden="true" fullscreen="false">
+     <View class='wsize wfill' backgroundColor="orange">
+        <View zIndex="10" class="wfill hsize" top="0" backgroundImage="/images/bg/menu_bar.png">
+        	<!--<ImageView onClick="refresh" class="padding" left="10" top="20" bottom="20" height="40" width="40" image="/images/icons/icon_referesh.png"></ImageView>-->
+        	<View class="wsize hsize horz" right="0" top="10">
+        		<ImageView onClick="navTo" controller="search" class="padding" height="40" width="40" image="/images/icons/icon_search.png"></ImageView>
+        		<ImageView onClick="navTo" controller="manage_item" class="padding" height="40" width="40" image="/images/icons/icon_plus.png"></ImageView>
+        		<ImageView onClick="navTo" controller="setting" class="padding" height="40" width="40" image="/images/icons/icon_more.png"></ImageView>
+        	</View>
+        </View>
+        <View class="wsize hfill" top="60">
+        	<View zIndex="10" class="hsize box" borderRadius="40" borderColor="#323136" borderWidth="4" backgroundColor="#fff" width="80" height="80" right="10" top="10">
+        		<View class="hsize vert small-padding">
+		        	<Label class="wfill hsize" top="5" textAlign="center">POINT</Label>
+		        	<Label id="point" textAlign="center" class="h2 wfill hsize"></Label>
+	        	</View>
+        	</View>
+        	<View class="wsize hfill" top="0">
+    			<View id="item_container" top="0" zIndex="10" class="hfill wfill">
+        			<!--<ImageView zIndex="1" id="item_2" class="wfill" height="auto" image="/images/demo_item.png"></ImageView>-->
+    			</View>
+	        		<!--<View height="40" class="wfill horz" horizontalWrap="false" backgroundColor="#323136">
+		        			<Label class="wfill hsize padding" id="info_box" color="#ffffff">
+		        				ADASDd ALS LALKKS
+		    				</Label>
+		        		</View>-->
+        		<View id="left_right_button" bottom="0" class="wfill horz" horizontalWrap="false" backgroundColor="#ebebeb">
+        			
+        		</View>
+        	</View>
+        </View>
+    </View>
+    </Window>
+</Alloy>
