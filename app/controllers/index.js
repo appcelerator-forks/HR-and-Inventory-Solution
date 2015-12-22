@@ -19,8 +19,7 @@ function _callback(){
 
 function init(){
 	PUSH.setInApp();
-	_callback();
-	//var user = require("user"); 
+	_callback(); 
 	//user.checkAuth(_callback);
 }
 
