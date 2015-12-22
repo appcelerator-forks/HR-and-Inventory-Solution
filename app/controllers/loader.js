@@ -3,7 +3,7 @@ var counter = 0;
 
 var loadingList = [
 	{type: "api"},
-	{type: "model", model: "items", func: "calculate_distance"}
+	//{type: "model", model: "items", func: "calculate_distance"}
 ];
 
 /**

@@ -1,23 +1,22 @@
 /*********************
 *** SETTING / API ***
 **********************/
-var API_DOMAIN = "salesad.freejini.com.my";
-var PANDO_DOMAIN = "14.102.151.167";
+var API_DOMAIN = "gohr.geonn.com.my";
 // APP authenticate user and key
-var USER  = 'pando';
-var KEY   = '234g3245908b32ger35g628v293ad99d';
+var USER  = 'gohr';
+var KEY   = '80175304721014532l49f7207c8943981';
 
-var updateProfileUrl = "http://"+PANDO_DOMAIN+"/pando/api/updateProfile?user="+USER+"&key="+KEY;
-var updateTokenUrl     = "http://"+PANDO_DOMAIN+"/pando/api/getDeviceInfo?user="+USER+"&key="+KEY;
+var doLoginUrl = "http://"+API_DOMAIN+"/api/doLogin?user="+USER+"&key="+KEY;
+var updateTokenUrl     = "http://"+API_DOMAIN+"/pando/api/getDeviceInfo?user="+USER+"&key="+KEY;
 
 //API when app loading phase
-var getItemListUrl            = "http://"+PANDO_DOMAIN+"/pando/api/getItemList?user="+USER+"&key="+KEY;
-var getItemResponseByUidUrl = "http://"+PANDO_DOMAIN+"/pando/api/getItemResponseByUid?user="+USER+"&key="+KEY;
+var getItemListUrl            = "http://"+API_DOMAIN+"/pando/api/getItemList?user="+USER+"&key="+KEY;
+var getItemResponseByUidUrl = "http://"+API_DOMAIN+"/pando/api/getItemResponseByUid?user="+USER+"&key="+KEY;
 
 //API that call in sequence 
 var APILoadingList = [
-	{url: getItemListUrl, model: "items", checkId: "1"},
-	{url: getItemResponseByUidUrl, model: "item_response", checkId: "2"},
+	//{url: getItemListUrl, model: "items", checkId: "1"},
+	//{url: getItemResponseByUidUrl, model: "item_response", checkId: "2"},
 ];
 
 /*********************

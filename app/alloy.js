@@ -16,8 +16,6 @@ var PUSH = require('push');
 var Common = require('common'); 
 var DBVersionControl = require('DBVersionControl');
 
-Alloy.Globals.Map = require('ti.map');
-
 DBVersionControl.checkAndUpdate();
 
 function parent(key, e){

@@ -1,8 +1,7 @@
 var args = arguments[0] || {};
 var loading = Alloy.createController("loading");
 var last_slide = 3;
-//var friends = Alloy.createCollection("friends");
-//var data = friends.getData();
+
 var fade_view = $.UI.create("View", {
 	classes:['wfill', 'hfill'],
 	backgroundColor: "#000000"
