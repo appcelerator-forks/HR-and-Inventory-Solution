@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="win" title="Add" navBarHidden="false" barColor="#75d0cb" class="vert">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<TextField id="textFieldSerNum" hintText="Serial Number" />
+	<Button id="button" onClick="doSave" title="Save" class="button" />
+	</Window>
+</Alloy>

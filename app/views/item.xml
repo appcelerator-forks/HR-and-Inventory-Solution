@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="win" title="Item" navBarHidden="false" barColor="#75d0cb" class="vert">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<RightNavButton>
+            <Button id="add" onClick="doAdd" title="Add" />
+    </RightNavButton>
+	<View id="viewall" class="wfill hfill vert padding">
+		<ImageView id="image_view" class="wfill" height="200" image="/images/icons/icon_take_photo_nobg.png" borderWidth="2"></ImageView>
+		<Label id="item_name" class="h3" text="" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"></Label>
+		<View id="viewqty" class="horz wfill hsize">
+			<Label id="label_qty" class="hsize h3" width="70%" text="Quantity :" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" ></Label>
+			<Label id="qty_num" class="hsize h3" width="auto" text="" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" ></Label>
+		</View>
+		<TableView id="table_view" class="wfill">
+		</TableView>
+	</View>
+	</Window>
+</Alloy>

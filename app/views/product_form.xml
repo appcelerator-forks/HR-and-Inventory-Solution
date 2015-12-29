@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="win" class="hfill wfill vert" title="Product Form" navBarHidden="false" barColor="#75d0cb">
+		<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+		<TextField id="textField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" color="#336699" class="wfill" hintText="Product Name" />
+		<Button id="button" onClick="doAdd" title="ADD" class="button"/>
+	</Window>
+</Alloy>

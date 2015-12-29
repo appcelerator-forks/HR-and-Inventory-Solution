@@ -1,8 +1,12 @@
 var args = arguments[0] || {};
 var loading = Alloy.createController("loading");
 
-function navToDemo(){
-	Alloy.Globals.Navigator.open("demo");
+function navToCategory(){
+	Alloy.Globals.Navigator.open("category");
+}
+
+function navToProfile(){
+	Alloy.Globals.Navigator.open("profile");
 }
 
 function doLogout(){

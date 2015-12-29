@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="win" title="Category" navBarHidden="false" barColor="#75d0cb">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<TableView id="table_view" class="wfill hfill">
+		<TableViewRow id="viewrowadd">
+			<Label onClick="navToCategory_form" class="wfill h4" height="100" text="Add Category" textAlign="Titanium.UI.TEXT_ALIGNMENT_CENTER"></Label>
+		</TableViewRow>
+	</TableView>
+	</Window>
+</Alloy>

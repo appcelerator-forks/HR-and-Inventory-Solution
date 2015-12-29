@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="win" title="Profile" navBarHidden="false" barColor="#75d0cb">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+		<RightNavButton>
+            <Button id="edit" onClick="doEdit" title="Edit" />
+    	</RightNavButton>
+	<View id="viewall" class="wfill hfill padding vert">
+		<ImageView id="image1" image="/images/icons/icon_take_photo_nobg.png" class="wfill" height="200" backgroundColor="black" />
+		<Label id="labelname" text="Tan Chor Wai" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" class="wfill h4 padding" />
+		<Label id="labelnum" text="123456789123" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" class="wfill h4"  />
+		<Button id="button" onClick="doChangePass" title="Change Password" class="button" />
+	</View>
+	</Window>
+</Alloy>

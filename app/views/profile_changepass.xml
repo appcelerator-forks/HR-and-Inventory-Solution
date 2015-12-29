@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="win" class="vert" title="Profile" navBarHidden="false" barColor="#75d0cb">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<TextField id="textFielOldPass" hintText="Current Password" />
+	<TextField id="textFieldNewPass" hintText="New Password" />
+	<TextField id="textFieldConfPass" hintText="Verify" />
+	<Button id="button" onClick="doOK" title="OK" class="button" />
+	</Window>
+</Alloy>
